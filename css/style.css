@@ -1,9 +1,7 @@
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
  */
 :root {
   --blue: #007bff;
@@ -9474,6 +9472,13 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
+    body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #home{
+    width: 100%;
+  }
   .text-xl-left {
     text-align: left !important;
   }
